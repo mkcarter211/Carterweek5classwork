@@ -17,13 +17,59 @@
 	/* ---------------------------------------------------------------------------------------------------------- 
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
+  html{
+    background-color: hsla(122, 45%, 66%, 0.7);
+    padding:4%;
+  }
+  body{
+    background: hsla(178, 83%, 49%, 0.9);
+    color: hsla(120, 30%, 2%, 0.9);
+  }
+  header h1{
+    background-color: hsla(0, 100%, 63%, 0.9);
+  }
+  div.preamble, div.requirements, div.benefits{
+    color: hsla(144, 88%, 48%, 0.4);
+    background-color: hsla(66, 67%, 77%, 0.8);
+  }
+  footer{
+    background-color: hsla(77, 100%, 63%, 0.9);
+  }
+  div.participation{
+    background-color: hsla(88, 88%, 88%, 0.8);
+
+  }
+  aside.sidebar{
+    background-color: hsla(72, 42%, 77%, 0.8);
+  }
 
 
 
 
 
 /** 02 Typography -- Font  **/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+  font-family: verdana, aria, sans-serif;
+}
+p{
+  font-size: 1.25em;
+}
+h3{
+  font-size: 2.25em; font-weight: 200; letter-spacing: 1px;
+  line-height: 1em; padding: 0.5em 0 0.25em 0;
+}
+div.summary{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  text-indent: -999px;
+}
 
 
 /** 03 Position, Size, layout **/
